@@ -322,5 +322,80 @@ background-color: #ffd43b;
 /*******************/
 .section-pricing{
     padding: 9.6rem 0;
+
+}
+.pricing-plan{
+    width: 75%;
+    border-radius: 11px;
+
 }
 
+
+.pricing-plan--starter{
+    padding: 4.6rem;
+    border: 2px solid #fae5d3;
+}
+.pricing-plan--complete{
+
+    background-color:#fae5d3 ;
+    position: relative;
+    overflow: hidden;
+    padding: 4.8rem;
+}
+
+.pricing-plan--complete::after{
+    content: "Best value";
+    position: absolute;
+    top: 6%;
+    right: -18%;
+
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #333;
+    background: #ffd43b;
+    padding: 0.8rem 8rem;
+    transform: rotate(45deg);
+}
+
+
+.plan-header{
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+
+.plan-name{
+    color: #cf711f;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: -0.75px;
+    text-transform: uppercase;
+    margin-bottom: 3.2rem;
+}
+.plan-price{
+    font-size: 6.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.6rem;
+
+}
+.plan-price span{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-right: 0.8rem;
+}
+.plan-text{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #6f6f6f;
+}
+.plan-sing-up{
+    text-align: center;
+    margin-top: 4.8rem;
+    margin-bottom: 0;
+}
+.test{
+    /*padding-bottom: 0;*/
+    /*margin-bottom: 0;*/
+    /*margin-top: 10rem;*/
+}
