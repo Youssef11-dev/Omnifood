@@ -35,12 +35,14 @@ Default : 1
 }
 html{
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 body{
     font-family: sans-serif;
     line-height: 1;
     color: #555;
     font-weight: 400;
+    overflow-x: hidden;
 }
 /*****************/
 /* Reusable items*/
